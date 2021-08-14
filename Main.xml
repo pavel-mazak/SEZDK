@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2021-08-14T22:13:03.5923532Z</Created>
+    <Created>2021-08-14T22:18:14.873599Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -1288,7 +1288,7 @@
     </Access>
     <Access Scope="GlobalVariable" UId="23">
       <Symbol>
-        <Component Name="Box Capacity" />
+        <Component Name="Extrusions in Box" />
       </Symbol>
     </Access>
     <Access Scope="GlobalVariable" UId="24">
