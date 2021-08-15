@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2021-08-14T22:18:14.873599Z</Created>
+    <Created>2021-08-15T21:43:07.0435074Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -1336,7 +1336,7 @@
       <TemplateValue Name="time_type" Type="Type">Time</TemplateValue>
     </Part>
     <Part Name="Div" UId="36" DisabledENO="true">
-      <AutomaticTyped Name="SrcType" />
+      <TemplateValue Name="SrcType" Type="Type">Int</TemplateValue>
     </Part>
   </Parts>
   <Wires>
