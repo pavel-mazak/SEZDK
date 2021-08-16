@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V16" />
   <DocumentInfo>
-    <Created>2021-08-15T21:18:13.1704559Z</Created>
+    <Created>2021-08-16T20:43:06.6006589Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -15,10 +15,6 @@
       </OptionPackage>
       <OptionPackage>
         <DisplayName>TIA Portal Openness</DisplayName>
-        <DisplayVersion>V16</DisplayVersion>
-      </OptionPackage>
-      <OptionPackage>
-        <DisplayName>TIA Portal Teamcenter Gateway</DisplayName>
         <DisplayVersion>V16</DisplayVersion>
       </OptionPackage>
       <Product>
@@ -348,11 +344,14 @@
           </MultilingualText>
         </ObjectList>
       </SW.Tags.PlcTag>
-      <SW.Tags.PlcUserConstant ID="2B" CompositionName="UserConstants">
+      <SW.Tags.PlcTag ID="2B" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Int</DataTypeName>
-          <Name>Krabica mala</Name>
-          <Value>150</Value>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MW10</LogicalAddress>
+          <Name>Actual extrusion</Name>
         </AttributeList>
         <ObjectList>
           <MultilingualText ID="2C" CompositionName="Comment">
@@ -366,17 +365,58 @@
             </ObjectList>
           </MultilingualText>
         </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="2E" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Time</DataTypeName>
+          <ExternalAccessible>true</ExternalAccessible>
+          <ExternalVisible>true</ExternalVisible>
+          <ExternalWritable>true</ExternalWritable>
+          <LogicalAddress>%MD12</LogicalAddress>
+          <Name>Coveyor 2 Delay</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="2F" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="30" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcUserConstant ID="31" CompositionName="UserConstants">
+        <AttributeList>
+          <DataTypeName>Int</DataTypeName>
+          <Name>Krabica mala</Name>
+          <Value>150</Value>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="32" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="33" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
       </SW.Tags.PlcUserConstant>
-      <SW.Tags.PlcUserConstant ID="2E" CompositionName="UserConstants">
+      <SW.Tags.PlcUserConstant ID="34" CompositionName="UserConstants">
         <AttributeList>
           <DataTypeName>Int</DataTypeName>
           <Name>Krabica velka</Name>
           <Value>250</Value>
         </AttributeList>
         <ObjectList>
-          <MultilingualText ID="2F" CompositionName="Comment">
+          <MultilingualText ID="35" CompositionName="Comment">
             <ObjectList>
-              <MultilingualTextItem ID="30" CompositionName="Items">
+              <MultilingualTextItem ID="36" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
                   <Text />
